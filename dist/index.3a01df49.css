@@ -1,0 +1,47 @@
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 4px solid gray;
+  border-left-color: violet;
+  border-radius: 50%;
+  animation: 1s infinite rotate;
+}
+
+.btn {
+  color: #fff;
+  min-width: 150px;
+  cursor: pointer;
+  background-color: violet;
+  border: none;
+  border-radius: 50px;
+  justify-content: center;
+  padding: 8px 16px;
+  transition: all .3s;
+  display: flex;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+.btn:active {
+  scale: .95;
+}
+
+.btn:disabled {
+  pointer-events: none;
+  color: gray;
+  background-color: #d3d3d3;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
